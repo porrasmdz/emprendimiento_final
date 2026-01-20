@@ -11,9 +11,9 @@ export default defineConfig({
     registerType: 'autoUpdate',
     includeAssets: ['favicon.svg', 'robots.txt'],
     manifest: {
-      name: 'Mi App de Rutas',
-      short_name: 'Rutas',
-      description: 'Aplicación de mapas y rutas',
+      name: 'Mi App de Carpool',
+      short_name: 'PolDrive',
+      description: 'Aplicación de carpool para emprendimiento',
       theme_color: '#2563eb',
       background_color: '#ffffff',
       display: 'standalone',

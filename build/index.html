@@ -1,16 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
 
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Carpool App Home View</title>
-      <script type="module" crossorigin src="/assets/index-KfgX0lzw.js"></script>
-      <link rel="stylesheet" crossorigin href="/assets/index-6kHCBhwS.css">
-    <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carpool App Home View</title>
+  <script type="module" crossorigin src="/assets/index-KfgX0lzw.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-6kHCBhwS.css">
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 
-    <body>
-      <div id="root"></div>
-    </body>
-  </html>
-  
+<body>
+  <div id="root"></div>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+</body>
+
+</html>
