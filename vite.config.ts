@@ -11,7 +11,7 @@ export default defineConfig({
     registerType: 'autoUpdate',
     includeAssets: ['favicon.svg', 'robots.txt'],
     manifest: {
-      name: 'Mi App de Carpool',
+      name: 'Carpool App PolDrive',
       short_name: 'PolDrive',
       description: 'Aplicación de carpool para emprendimiento',
       theme_color: '#2563eb',
